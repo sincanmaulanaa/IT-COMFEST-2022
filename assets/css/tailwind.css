@@ -727,6 +727,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.mr-3{
+  margin-right: 0.75rem;
+}
+
+.mr-3\.5{
+  margin-right: 0.875rem;
+}
+
+.mr-\[20px\]{
+  margin-right: 20px;
+}
+
+.mr-\[10px\]{
+  margin-right: 10px;
+}
+
 .block{
   display: block;
 }
@@ -1777,6 +1793,10 @@ body {
 }
 
 @media (min-width: 720px){
+  .md\:mr-5{
+    margin-right: 1.25rem;
+  }
+
   .md\:flex{
     display: flex;
   }
